@@ -1,7 +1,7 @@
 var Hapi = require('hapi');
 var cool = require('cool-ascii-faces');
 
-var server = Hapi.createServer('localhost', process.env.PORT || 8080);
+var server = Hapi.createServer(process.env.PORT || 8080);
 
 var routes = [
   {
