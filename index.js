@@ -12,10 +12,10 @@ var routes = [
     }
   },
   {
-    path:"/smiles",
+    path:'/smiles',
     method: "GET",
-    hanlder: function(req, replay){
-      reply(cool);
+    handler: function(req, reply){
+      reply(cool());
     }
   }
 ];
