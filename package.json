@@ -1,0 +1,21 @@
+{
+  "name": "heroku_demo",
+  "version": "1.0.0",
+  "description": "A demo deployment to heroku of a hapi server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mario Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.3",
+    "hapi": "^6.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MMRibot/Heroku-Demo.git"
+  },
+}
