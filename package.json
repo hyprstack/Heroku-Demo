@@ -15,7 +15,9 @@
     "hapi": "^6.8.1"
   },
   "repository": {
-    "type": "git",
     "url": "git@github.com:MMRibot/Heroku-Demo.git"
   },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
